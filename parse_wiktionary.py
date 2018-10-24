@@ -44,9 +44,5 @@ def request_wiktionary_tree(word):
         page=requests.get(wiki_url)
         tree = html.fromstring(page.content)
     except:
-        return []
+        return None
     return tree
-
-
-first_kind = ['word']
-second_kind = ['sanctimonious', 'land-use']
