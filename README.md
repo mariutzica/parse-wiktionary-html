@@ -25,10 +25,14 @@ parse_wiktionary_tree(tree)
 Out: (
 
 ['Noun'],
-[['Any or all of the forms of water particles , whether liquid or solid , that fall from the atmosphere e.g., rain , hail , snow or sleet . It is a major class of hydrometeor , but it is distinguished from cloud , fog , dew , rime , frost , etc., in that it must fall. It is distinguished from cloud and virga in that it must reach the ground.',
+[['Any or all of the forms of water particles , whether liquid or solid , that fall from the atmosphere e.g., rain , hail ,
+snow or sleet . It is a major class of hydrometeor , but it is distinguished from cloud , fog , dew , rime , frost , etc., in
+that it must fall. It is distinguished from cloud and virga in that it must reach the ground.',
    'A hurried headlong fall .',
-   'A reaction that leads to the formation of a heavier solid in a lighter liquid ; the precipitate so formed at the bottom of the container.',
+   'A reaction that leads to the formation of a heavier solid in a lighter liquid ; the precipitate so formed at the bottom of
+   the container.',
    'Unwise or rash rapidity ; sudden haste .']],
 [['Noun Synonyms', 'See also , Thesaurus:hydrometeor'],
-['Noun Derived terms', 'aptaprecipitation, aptoprecipitation, coprecipitation, immunoprecipitation, microprecipitation, nanoprecipitation, postprecipitation, precipitation hardening, precipitation reaction, reprecipitation']])
+['Noun Derived terms', 'aptaprecipitation, aptoprecipitation, coprecipitation, immunoprecipitation, microprecipitation,
+nanoprecipitation, postprecipitation, precipitation hardening, precipitation reaction, reprecipitation']])
 ```
