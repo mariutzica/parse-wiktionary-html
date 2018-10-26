@@ -9,20 +9,26 @@ parse_wiktionary_tree(tree) -- take tree returned by request_wiktionary_tree and
 
 Sample usage:
 
->> tree = request_wiktionary_tree('agriculture')
->> parse_wiktionary_tree(tree)
+```
+tree = request_wiktionary_tree('agriculture')
+parse_wiktionary_tree(tree)
+```
 
-Out: (\['Noun'],\[\['The art or science of cultivating the ground, including the harvesting of crops, and the rearing and management of livestock']],\[])
+```Out: (['Noun'],[['The art or science of cultivating the ground, including the harvesting of crops, and the rearing and management of livestock']],[])```
 
->> tree = request_wiktionary_tree('precipitation')
->> parse_wiktionary_tree(tree)
+```
+tree = request_wiktionary_tree('precipitation')
+parse_wiktionary_tree(tree)
+```
 
+```
 Out: (
 
-\['Noun'],
-\[\['Any or all of the forms of water particles , whether liquid or solid , that fall from the atmosphere e.g., rain , hail , snow or sleet . It is a major class of hydrometeor , but it is distinguished from cloud , fog , dew , rime , frost , etc., in that it must fall. It is distinguished from cloud and virga in that it must reach the ground.',
+['Noun'],
+[['Any or all of the forms of water particles , whether liquid or solid , that fall from the atmosphere e.g., rain , hail , snow or sleet . It is a major class of hydrometeor , but it is distinguished from cloud , fog , dew , rime , frost , etc., in that it must fall. It is distinguished from cloud and virga in that it must reach the ground.',
    'A hurried headlong fall .',
    'A reaction that leads to the formation of a heavier solid in a lighter liquid ; the precipitate so formed at the bottom of the container.',
    'Unwise or rash rapidity ; sudden haste .']],
-\[\['Noun Synonyms', 'See also , Thesaurus:hydrometeor'],
-\['Noun Derived terms', 'aptaprecipitation, aptoprecipitation, coprecipitation, immunoprecipitation, microprecipitation, nanoprecipitation, postprecipitation, precipitation hardening, precipitation reaction, reprecipitation']])
+[['Noun Synonyms', 'See also , Thesaurus:hydrometeor'],
+['Noun Derived terms', 'aptaprecipitation, aptoprecipitation, coprecipitation, immunoprecipitation, microprecipitation, nanoprecipitation, postprecipitation, precipitation hardening, precipitation reaction, reprecipitation']])
+```
