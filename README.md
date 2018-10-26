@@ -36,3 +36,31 @@ that it must fall. It is distinguished from cloud and virga in that it must reac
 ['Noun Derived terms', 'aptaprecipitation, aptoprecipitation, coprecipitation, immunoprecipitation, microprecipitation,
 nanoprecipitation, postprecipitation, precipitation hardening, precipitation reaction, reprecipitation']])
 ```
+
+```
+tree = request_wiktionary_tree('hide')
+parse_wiktionary_tree(tree)
+```
+
+```
+Out: 
+(['Verb', 'Noun'],
+ [['To put something in a place where it will be harder to discover or out of sight .',
+   'To put oneself in a place where one will be harder to find or out of sight. 2013 May-June, William E. Conner , “ An
+   Acoustic Arms Race ”, in American Scientist , volume 101, number 3, page 206-7: Nonetheless, some insect prey take
+   advantage of clutter by hiding in it. Earless ghost swift moths become “invisible” to echolocating bats by forming mating
+   clusters close less than half a meter above vegetation and effectively blending into the clutter of echoes that the bat
+   receives from the leaves and stems around them.'],
+  ['',
+   'The skin of an animal .',
+   'The human skin.',
+   "One's own life or personal safety , especially when in peril .",
+   'A covered structure from which hunters, birdwatchers, etc can observe animals without scaring them.',
+   'A covered structure to which a pet animal can retreat, as is recommended for snakes .']],
+ [['Verb Derived terms',
+   "hide and seek,  / , hide-and-seek, hideaway, hideout, , , hide out, hide one's light under a bushel, hider, one can run
+   but one can't hide"],
+  ['Noun Derived terms',
+   "cowhide, damn your hide, have someone's hide, rawhide, tan someone's hide"],
+  ['Noun Hyponyms',
+   '( ¼ hide, ) , See,  , virgate, ( ⅛ hide, ) , See,  , oxgang, ( 1, /, 16,  hide, ) , nook, farundel']])
